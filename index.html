@@ -3,276 +3,153 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Marina Sampanidou – Portfolio</title>
-  <style>
-    :root {
-      --bg: #0c0c0e;
-      --card: #141417;
-      --border: #26262c;
-      --text: #f3f3f5;
-      --muted: #9e9ea8;
-      --accent: #ffffff;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      background-color: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
-      line-height: 1.6;
-      padding: 4rem 1.5rem;
-    }
-
-    .container {
-      max-width: 820px;
-      margin: 0 auto;
-    }
-
-    header {
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 2.5rem;
-      margin-bottom: 3rem;
-    }
-
-    h1 {
-      font-size: 2.2rem;
-      font-weight: 600;
-      letter-spacing: -0.02em;
-      margin-bottom: 0.4rem;
-    }
-
-    .subtitle {
-      color: var(--muted);
-      font-size: 1.05rem;
-      margin-bottom: 1.2rem;
-    }
-
-    .summary {
-      color: #d4d4dc;
-      max-width: 680px;
-      margin-bottom: 1.5rem;
-    }
-
-    .links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    .links a {
-      color: var(--accent);
-      text-decoration: none;
-      font-size: 0.9rem;
-      border: 1px solid var(--border);
-      padding: 0.45rem 0.9rem;
-      border-radius: 6px;
-      transition: background 0.2s, border-color 0.2s;
-    }
-
-    .links a:hover {
-      background: #1f1f24;
-      border-color: #4a4a55;
-    }
-
-    h2 {
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      color: var(--muted);
-      margin-bottom: 1.25rem;
-    }
-
-    section {
-      margin-bottom: 3.5rem;
-    }
-
-    .project-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1.6rem;
-      margin-bottom: 1.25rem;
-    }
-
-    .project-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      margin-bottom: 0.6rem;
-    }
-
-    .project-card h3 {
-      font-size: 1.2rem;
-      font-weight: 600;
-    }
-
-    .meta {
-      font-size: 0.85rem;
-      color: var(--muted);
-    }
-
-    .project-card p {
-      color: #cfcfd8;
-      font-size: 0.95rem;
-      margin-bottom: 1rem;
-    }
-
-    .tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      margin-bottom: 1rem;
-    }
-
-    .tag {
-      font-size: 0.78rem;
-      color: var(--muted);
-      border: 1px solid var(--border);
-      padding: 0.2rem 0.6rem;
-      border-radius: 999px;
-    }
-
-    .project-link {
-      display: inline-block;
-      color: var(--accent);
-      text-decoration: none;
-      font-size: 0.9rem;
-      border-bottom: 1px solid #555;
-      padding-bottom: 2px;
-    }
-
-    .project-link:hover {
-      border-bottom-color: var(--accent);
-    }
-
-    .grid-two {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 1.25rem;
-    }
-
-    .info-box {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1.3rem;
-    }
-
-    .info-box h3 {
-      font-size: 1rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .info-box p, .info-box li {
-      font-size: 0.9rem;
-      color: #cfcfd8;
-    }
-
-    .info-box ul {
-      list-style: none;
-    }
-
-    .info-box li {
-      margin-bottom: 0.35rem;
-    }
-
-    footer {
-      border-top: 1px solid var(--border);
-      padding-top: 1.5rem;
-      color: var(--muted);
-      font-size: 0.85rem;
-    }
-  </style>
+  <title>Marina Sampanidou — Business Strategy &amp; Operations Portfolio</title>
+  <meta name="description" content="Portfolio of Marina Sampanidou — BA (Hons) Business Management (Marketing), international logistics &amp; operations background, strategic marketing and B2B venture case studies." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
 
-    <header>
+  <nav class="topbar">
+    <a class="brand" href="index.html">Marina Sampanidou<span>.</span></a>
+    <div class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#profile">Background</a>
+      <a href="Marina_Sampanidou_CV.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <header class="hero">
+      <span class="eyebrow">Portfolio · Thessaloniki, Greece</span>
       <h1>Marina Sampanidou</h1>
-      <p class="subtitle">BA (Hons) Business Management (Marketing) · Thessaloniki, Greece</p>
-      <p class="summary">
-        Analytical Business Management undergraduate with 5+ years of operational experience in international freight forwarding across Germany and Greece. Focused on business strategy, market analysis, and structured product concepts.
+      <p class="hero-sub">BA (Hons) Business Management (Marketing) &nbsp;·&nbsp; Logistics &amp; Operations</p>
+      <p class="hero-summary">
+        Analytical Business Management undergraduate with 5+ years of executive and operational experience in international freight forwarding across Germany and Greece. Former Authorized Officer (<em>Prokuristin</em>), company shareholder, and EU-certified Transport Manager (IHK CPC, 98.9%) — now bridging operational rigor with business strategy, market diagnostics, and structured product concepts.
       </p>
-      <div class="links">
-        <!-- STELLE 1: Deine E-Mail eintragen -->
-        <a href="mailto:marinasampanidou@gmail.com">Email</a>
-        <!-- STELLE 2: Dein LinkedIn-Link (oder Zeile einfach löschen) -->
-        <a href="https://www.linkedin.com/in/marina-sampanidou-stud/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B1Ij5CYxJSyykTN1EzdzsyA%3D%3D" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="Marina_Sampanidou_CV_git.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="Marina_Sampanidou_CV.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
+        <a class="btn" href="mailto:marinasampanidou@gmail.com">Contact via Email</a>
+        <!-- Optional: LinkedIn-Zeile später aktivieren -->
+        <!-- <a class="btn" href="https://linkedin.com/in/DEIN-PROFIL" target="_blank" rel="noopener">LinkedIn</a> -->
       </div>
     </header>
 
-    <section>
-      <h2>Selected Academic Projects</h2>
+    <section id="projects">
+      <p class="section-label">Selected Work</p>
+      <h2 class="section-title">Strategic Case Studies &amp; Prototypes</h2>
 
-      <article class="project-card">
-        <div class="project-header">
-          <h3>NothingBook — Strategic Marketing Plan &amp; Product Concept</h3>
-          <span class="meta">2026 · Academic Concept Project</span>
-        </div>
-        <p>
-          Developed a full go-to-market and positioning strategy for a conceptual modular laptop targeting the consumer tech hardware market. Delivered a written strategic report, pitch deck, live HTML product mockup, and concept video.
-        </p>
-        <div class="tags">
-          <span class="tag">Go-to-Market</span>
-          <span class="tag">Product Strategy</span>
-          <span class="tag">Marketing Plan</span>
-          <span class="tag">HTML Mockup</span>
-        </div>
-        <!-- STELLE 3: Link zu deinem Netlify-Mockup eintragen (oder diese Zeile löschen) -->
-        <a class="project-link" href="https://dazzling-malasada-5d64ad.netlify.app/" target="_blank" rel="noopener">View Live Product Mockup &rarr;</a>
-      </article>
+      <div class="projects-grid">
 
-      <article class="project-card">
-        <div class="project-header">
-          <h3>DeepDive — B2B Business Plan &amp; Opportunity Map</h3>
-          <span class="meta">2026 · Academic Project (Grade: 85/100)</span>
-        </div>
-        <p>
-          Authored a 19-page B2B business plan and opportunity map for an asynchronous matching platform connecting specialized tech talent with employers. Covered market sizing, competitor benchmarking, financial modeling, and operational risk analysis.
-        </p>
-        <div class="tags">
-          <span class="tag">B2B Strategy</span>
-          <span class="tag">Business Modeling</span>
-          <span class="tag">Market Analysis</span>
-          <span class="tag">Opportunity Mapping</span>
-        </div>
-      </article>
+        <!-- Project 1: NothingBook -->
+        <article class="project-feature">
+          <div class="project-thumb">
+            <img src="assets/images/nothingbook-hero.jpg" alt="NothingBook modular transparent laptop concept" />
+          </div>
+          <div class="project-body">
+            <div>
+              <div class="badge-row">
+                <span class="badge badge-accent">Academic Concept Project</span>
+                <span class="badge">2026</span>
+                <span class="badge">Marketing Strategy</span>
+              </div>
+              <h3>NothingBook — Strategic Marketing Plan &amp; Product Concept</h3>
+              <p>
+                End-to-end go-to-market strategy and product line expansion concept for a modular, circular-economy laptop targeting Gen Z prosumers. Pairs Blue Ocean positioning and razor-blade unit economics with a live coded web prototype and subcultural hype campaign video.
+              </p>
+              <div class="tags">
+                <span class="tag">Blue Ocean Strategy</span>
+                <span class="tag">STP &amp; 4Ps</span>
+                <span class="tag">Circular Unit Economics</span>
+                <span class="tag">Live HTML Prototype</span>
+                <span class="tag">Campaign Video</span>
+              </div>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="projects/nothingbook.html">Read Case Study &rarr;</a>
+              <a class="btn" href="https://dazzling-malasada-5d64ad.netlify.app/" target="_blank" rel="noopener">Live Prototype &#8599;</a>
+              <a class="btn" href="https://www.youtube.com/shorts/5-GQxXgudW0" target="_blank" rel="noopener">Campaign Video &#8599;</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: DeepDive -->
+        <article class="project-feature">
+          <div class="project-thumb contain">
+            <img src="assets/images/deepdive-opportunity-map.png" alt="DeepDive Opportunity Map: Value vs. Feasibility" />
+          </div>
+          <div class="project-body">
+            <div>
+              <div class="badge-row">
+                <span class="badge badge-accent">IP-Protected Overview</span>
+                <span class="badge">2026</span>
+                <span class="badge">Grade: 85 / 100</span>
+              </div>
+              <h3>DeepDive — B2B Venture Business Plan &amp; UI Prototype</h3>
+              <p>
+                19-page B2B venture business plan, opportunity map, and functional web prototype for an asynchronous, low-stimulus project execution platform connecting specialized neurodivergent STEM talent with enterprise innovation teams. Proprietary mechanics and financial models are selectively redacted.
+              </p>
+              <div class="tags">
+                <span class="tag">B2B Venture Design</span>
+                <span class="tag">DIFA &amp; Opportunity Map</span>
+                <span class="tag">UK GDPR Compliance</span>
+                <span class="tag">12-Month Financial Model</span>
+                <span class="tag">Live UI Prototype</span>
+              </div>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="projects/deepdive.html">Read Case Study &rarr;</a>
+              <a class="btn" href="https://spiffy-treacle-99836d.netlify.app/" target="_blank" rel="noopener">Live UI Prototype &#8599;</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
     </section>
 
-    <section>
-      <h2>Background</h2>
-      <div class="grid-two">
-        <div class="info-box">
-          <h3>Education</h3>
+    <section id="profile">
+      <p class="section-label">Track Record</p>
+      <h2 class="section-title">Experience, Credentials &amp; Capabilities</h2>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Operational Leadership</h3>
           <ul>
-            <li><strong>BA (Hons) Business Management (Marketing)</strong><br>Mediterranean College (University of Derby), 2025 – Present</li>
-            <li style="margin-top: 0.7rem;"><strong>Freight Forwarding &amp; Logistics Clerk (IHK)</strong><br>Germany, 2018 – 2021 · Grade 1.4 (shortened to 2.5 years)</li>
+            <li><strong>SMK Logistics IKE</strong> (Thessaloniki)<br><span class="muted">Shareholder &amp; Transport Manager · 2025–Present</span></li>
+            <li><strong>Pigasos Transporte GmbH</strong> (Filderstadt)<br><span class="muted">Authorized Officer (Prokuristin) &amp; Shareholder · 2021–2026</span></li>
+            <li><strong>Milosch Transport GmbH</strong> (Rottenburg)<br><span class="muted">Freight Forwarding &amp; Operations · 2021</span></li>
           </ul>
         </div>
-        <div class="info-box">
-          <h3>Languages</h3>
+
+        <div class="card">
+          <h3>Education &amp; Licenses</h3>
+          <ul>
+            <li><strong>BA (Hons) Business Management (Marketing)</strong><br><span class="muted">Mediterranean College / Univ. of Derby · 2025–Present</span></li>
+            <li><strong>Freight Forwarding Clerk (IHK)</strong><br><span class="muted">Final Grade 1.4 · Shortened to 2.5 years</span></li>
+            <li><strong>IHK Transport Manager CPC</strong><br><span class="muted">188 / 190 pts (98.9%) · EU Statutory License</span></li>
+            <li><strong>Aviation Security Officer</strong><br><span class="muted">EU Reg. 2015/1998, Ch. 11.2.5</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Languages &amp; Systems</h3>
           <ul>
             <li><strong>German:</strong> Native</li>
             <li><strong>Greek:</strong> Bilingual</li>
             <li><strong>English:</strong> Full Professional Proficiency (C1)</li>
             <li><strong>Japanese:</strong> Elementary (A1, in progress)</li>
+            <li><strong>Tools:</strong> DATEV, AADE (myDATA), TMS, MS Office (Certified), HTML/CSS</li>
           </ul>
         </div>
       </div>
     </section>
 
     <footer>
-      &copy; 2026 Marina Sampanidou · Academic concept projects are clearly labeled and created for educational purposes.
+      <span>&copy; 2026 Marina Sampanidou. All rights reserved.</span>
+      <span>Academic concept projects are clearly labeled; proprietary venture documentation is protected.</span>
     </footer>
 
-  </div>
+  </main>
+
 </body>
 </html>
